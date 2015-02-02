@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div id="wrapper">
+  <div class="w960">
+    <div id="sidebar">
+      {% include sidebar.html %}
+      <div class="clr h20"></div>
+    </div>
+
+    <div id="content">
+
+      <div id="snl">
+        {% include subnav.html %}
+      </div>
+
+      <div class="clr"></div>
+
+      <div id="nvl">
+        {% include nav.html %}
+      </div>
+
+      <div id="content_inner">
+
+        <div class="ro_cal">
+          <h2 class="din">Agenda</h2>
+          <ul class="ro_cal_entries">
+            {% assign agenda = (site.pages | where: "layout" , "agenda-item") %}
+            {% for page in agenda limit:5 %}
+              <li>
+                <a class="post-link" href="{{ page.permalink | prepend: site.baseurl }}"><span class="red">&rsaquo;</span> {{ page.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+          <a class="button" href="/agenda/"><span class="red">&rsaquo;</span> Bekijk hele agenda</a>
+        </div>
+
+        <div class="ro_slider">
+          <img src="/assets/images/ro/058fbddd2efddd4ba80757c819e24949.jpg" alt="Residentie Ontdekkingen" />
+        </div>
+
+        <div class="clr h20"></div>
+
+        <div class="ro_wel post-content">
+          {{ page.content }}
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="clr"></div>
+
+  </div>
+</div>

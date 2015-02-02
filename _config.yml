@@ -1,0 +1,11 @@
+# Site settings
+title: Residentie Ontdekkingen
+email: bravebox@gmail.com
+description: > #
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.residentieontdekkingen.nl" # the base hostname & protocol for your site
+twitter_username: bravebox
+github_username:  bravebox
+
+# Build settings
+markdown: kramdown
