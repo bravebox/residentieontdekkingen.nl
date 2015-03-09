@@ -12,3 +12,5 @@ Wij verzorgen  gegidste bustours langs de Haagse high lights zoals het werkpalei
 - De kosten voor een gids voor een  1.5 a 2 uur durende rondrit bedragen € 150,00
 - Wij kunnen ook voor een bus zorgen, de kosten hiervan zijn afhankelijk van de groepsgrootte
 - Prijzen op aanvraag
+
+Inlichtingen en aanmelden: zie [contactformulier](/activiteiten/aanmelden/) of 070-3451298

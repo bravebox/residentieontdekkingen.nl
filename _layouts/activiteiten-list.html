@@ -33,7 +33,7 @@ layout: default
             {% for page in a %}
               <div class="list-group-item">
                 <h3><a class="post-link" href="{{ page.permalink | prepend: site.baseurl }}"><span class="red">&rsaquo;</span> {{ page.title }}</a></h3>
-                <p>{{ page.description }}</p>
+                <p>{{ page.description }} <a href="{{ page.permalink | prepend: site.baseurl }}">Lees verder</a></p>
               </div>
             {% endfor %}
           </div>
