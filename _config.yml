@@ -9,3 +9,4 @@ github_username:  bravebox
 
 # Build settings
 markdown: kramdown
+exclude: ['config.rb', 'Gruntfile.js', 'package.json', 'Gemfile', 'Gemfile.lock', '.sass-cache/',  'node_modules/', 'src/']

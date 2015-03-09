@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div id="wrapper">
+  <div class="w960">
+    <div id="sidebar">
+      {% include sidebar.html %}
+      <div class="clr h20"></div>
+    </div>
+
+    <div id="content">
+
+      <div id="snl">
+        {% include subnav.html %}
+      </div>
+
+      <div class="clr"></div>
+
+      <div id="nvl">
+        {% include nav.html %}
+      </div>
+
+      <div id="content_inner">
+
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+
+        <article class="post-content">
+          {{ content }}
+        </article>
+
+        <a href="javascript:window.history.go(-1);">Terug</a>
+      </div>
+
+    </div>
+    <div class="clr"></div>
+
+  </div>
+</div>

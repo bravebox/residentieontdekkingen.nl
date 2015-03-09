@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div id="wrapper">
+  <div class="w960">
+    <div id="sidebar">
+      {% include sidebar.html %}
+      <div class="clr h20"></div>
+    </div>
+
+    <div id="content">
+
+      <div id="snl">
+        {% include subnav.html %}
+      </div>
+
+      <div class="clr"></div>
+
+      <div id="nvl">
+        {% include nav.html %}
+      </div>
+
+      <div id="content_inner">
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+        <article class="post-content">
+          {{ content }}
+
+          <div class="list-group  list-group-activities">
+            {% assign a = (site.pages | where: "show_in_list" , page.list) %}
+            {% for page in a %}
+              <div class="list-group-item">
+                <h3><a class="post-link" href="{{ page.permalink | prepend: site.baseurl }}"><span class="red">&rsaquo;</span> {{ page.title }}</a></h3>
+                <p>{{ page.description }}</p>
+              </div>
+            {% endfor %}
+          </div>
+
+          <a href="javascript:window.history.go(-1);">Terug</a>
+        </article>
+      </div>
+
+    </div>
+    <div class="clr"></div>
+
+  </div>
+</div>

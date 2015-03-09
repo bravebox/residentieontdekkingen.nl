@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Activiteitenformulier
-permalink: /activiteitenformulier/
+permalink: /activiteiten/aanmelden/
 ---
 
 <p>Er wordt momenteel gewerkt aan de website.</p>

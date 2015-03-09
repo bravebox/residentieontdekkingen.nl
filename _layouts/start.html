@@ -24,16 +24,15 @@ layout: default
       <div id="content_inner">
 
         <div class="ro_cal">
-          <h2 class="din">Agenda</h2>
+          <h2 class="din">Activiteiten</h2>
           <ul class="ro_cal_entries">
-            {% assign agenda = (site.pages | where: "layout" , "agenda-item") %}
+            {% assign agenda = (site.pages | where: "show_in_list" , "activiteiten") %}
             {% for page in agenda limit:5 %}
               <li>
                 <a class="post-link" href="{{ page.permalink | prepend: site.baseurl }}"><span class="red">&rsaquo;</span> {{ page.title }}</a>
               </li>
             {% endfor %}
           </ul>
-          <a class="button" href="/agenda/"><span class="red">&rsaquo;</span> Bekijk hele agenda</a>
         </div>
 
         <div class="ro_slider">
@@ -43,14 +42,23 @@ layout: default
         <div class="clr h20"></div>
 
         <div class="ro_wel post-content">
-          {{ page.content }}
+          {{ content }}
         </div>
 
-      </div>
+        <!--
+        <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+          <div><h3>1</h3></div>
+          <div><h3>2</h3></div>
+          <div><h3>3</h3></div>
+          <div><h3>4</h3></div>
+          <div><h3>5</h3></div>
+          <div><h3>6</h3></div>
+        </div>
+        -->
 
+      </div>
     </div>
 
     <div class="clr"></div>
-
   </div>
 </div>

@@ -1,7 +1,17 @@
+<!--
 <ul>
   <li><a href="/historie" title="Historie">Historie</a></li>
   <li><a href="/kunst" title="Kunst">Kunst</a></li>
   <li><a href="/architectuur" title="Architectuur">Architectuur</a></li>
   <li><a href="/literatuur" title="Literatuur">Literatuur</a></li>
   <li><a href="/cultuur" title="Cultuur">Cultuur</a></li>
+</ul>
+-->
+<ul>
+{% assign agenda = (site.pages | where: "show_in_list" , "activiteiten") %}
+{% for page in agenda limit:5 %}
+  <li>
+    <a  href="{{ page.permalink | prepend: site.baseurl }}">{{ page.title }}</a>
+  </li>
+{% endfor %}
 </ul>
