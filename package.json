@@ -42,8 +42,6 @@
     "dependencies": {
         "jquery": "~2.1.3",
         "bootstrap": "~3.3.4",
-        "bootstrap-datepicker": "https://github.com/eternicode/bootstrap-datepicker.git",
-        "jquery-validate": "https://github.com/jzaefferer/jquery-validation.git",
         "slick-carousel": "~1.4.1"
     }
 }

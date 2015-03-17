@@ -67,11 +67,13 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');				// watch
 
 	// grunt build
-  grunt.registerTask('default', ['browserify:vendor', 'browserify:client', 'uglify', 'compass']);
-  grunt.registerTask('browserifyWithWatch', [
-    //'browserify:vendor',
+  grunt.registerTask('default', ['browserify:client', 'uglify', 'compass']);
+
+	// grunt watch
+  grunt.registerTask('bww', [
     'browserify:watchClient',
 		'watch:uglify',
     'watch:compass'
   ]);
+
 };

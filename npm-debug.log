@@ -1,69 +1,147 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jquery-validate' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
 4 warn package.json residentieontdekkingen@1.0.0 No description
 5 warn package.json residentieontdekkingen@1.0.0 No README data
 6 verbose readDependencies using package.json deps
-7 verbose cache add [ 'jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git',
-7 verbose cache add   null ]
-8 verbose cache add name=undefined spec="jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git" args=["jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git",null]
-9 verbose parsed url { protocol: null,
-9 verbose parsed url   slashes: null,
-9 verbose parsed url   auth: null,
-9 verbose parsed url   host: null,
-9 verbose parsed url   port: null,
-9 verbose parsed url   hostname: null,
-9 verbose parsed url   hash: null,
-9 verbose parsed url   search: null,
-9 verbose parsed url   query: null,
-9 verbose parsed url   pathname: 'jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git',
-9 verbose parsed url   path: 'jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git',
-9 verbose parsed url   href: 'jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git' }
-10 verbose cache add name="jquery-validate" spec="git+ssh://git@github.com:jzaefferer/jquery-validation.git" args=["jquery-validate","git+ssh://git@github.com:jzaefferer/jquery-validation.git"]
-11 verbose parsed url { protocol: 'git+ssh:',
-11 verbose parsed url   slashes: true,
-11 verbose parsed url   auth: 'git',
-11 verbose parsed url   host: 'github.com',
-11 verbose parsed url   port: null,
-11 verbose parsed url   hostname: 'github.com',
-11 verbose parsed url   hash: null,
-11 verbose parsed url   search: null,
-11 verbose parsed url   query: null,
-11 verbose parsed url   pathname: '/:jzaefferer/jquery-validation.git',
-11 verbose parsed url   path: '/:jzaefferer/jquery-validation.git',
-11 verbose parsed url   href: 'git+ssh://git@github.com/:jzaefferer/jquery-validation.git' }
-12 silly lockFile 2d8af237-jzaefferer-jquery-validation-git git@github.com:jzaefferer/jquery-validation.git
-13 verbose lock git@github.com:jzaefferer/jquery-validation.git /Users/mick/.npm/2d8af237-jzaefferer-jquery-validation-git.lock
-14 verbose addRemoteGit [ 'git@github.com:jzaefferer/jquery-validation.git', 'master' ]
-15 error git clone git@github.com:jzaefferer/jquery-validation.git Cloning into bare repository '/Users/mick/.npm/_git-remotes/git-github-com-jzaefferer-jquery-validation-git-2d8af237'...
-15 error git clone git@github.com:jzaefferer/jquery-validation.git Host key verification failed.
-15 error git clone git@github.com:jzaefferer/jquery-validation.git fatal: Could not read from remote repository.
-15 error git clone git@github.com:jzaefferer/jquery-validation.git
-15 error git clone git@github.com:jzaefferer/jquery-validation.git Please make sure you have the correct access rights
-15 error git clone git@github.com:jzaefferer/jquery-validation.git and the repository exists.
-16 silly lockFile 2d8af237-jzaefferer-jquery-validation-git git@github.com:jzaefferer/jquery-validation.git
-17 silly lockFile 2d8af237-jzaefferer-jquery-validation-git git@github.com:jzaefferer/jquery-validation.git
-18 error Error: Command failed: Cloning into bare repository '/Users/mick/.npm/_git-remotes/git-github-com-jzaefferer-jquery-validation-git-2d8af237'...
-18 error Host key verification failed.
-18 error fatal: Could not read from remote repository.
-18 error
-18 error Please make sure you have the correct access rights
-18 error and the repository exists.
-18 error
-18 error     at ChildProcess.exithandler (child_process.js:648:15)
-18 error     at ChildProcess.emit (events.js:98:17)
-18 error     at maybeClose (child_process.js:756:16)
-18 error     at Socket.<anonymous> (child_process.js:969:11)
-18 error     at Socket.emit (events.js:95:17)
-18 error     at Pipe.close (net.js:465:12)
-19 error If you need help, you may report this *entire* log,
-19 error including the npm and node versions, at:
-19 error     <http://github.com/npm/npm/issues>
-20 error System Darwin 14.1.0
-21 error command "node" "/usr/local/bin/npm" "install" "jquery-validate"
-22 error cwd /Users/mick/Sites/www-residentieontdekkingen
-23 error node -v v0.10.33
-24 error npm -v 1.4.28
-25 error code 128
-26 verbose exit [ 1, true ]
+7 verbose install where, deps [ '/Users/mick/Sites/www-residentieontdekkingen',
+7 verbose install   [ 'jquery',
+7 verbose install     'bootstrap',
+7 verbose install     'bootstrap-datepicker',
+7 verbose install     'jquery-validate',
+7 verbose install     'slick-carousel',
+7 verbose install     'browserify-shim',
+7 verbose install     'browserify',
+7 verbose install     'grunt',
+7 verbose install     'grunt-browserify',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-compass',
+7 verbose install     'grunt-contrib-concat',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch' ] ]
+8 info preinstall residentieontdekkingen@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping jquery@~2.1.3 /Users/mick/Sites/www-residentieontdekkingen
+11 verbose already installed skipping bootstrap@~3.3.4 /Users/mick/Sites/www-residentieontdekkingen
+12 verbose cache add [ 'bootstrap-datepicker@https://github.com/eternicode/bootstrap-datepicker/tree/master/',
+12 verbose cache add   null ]
+13 verbose cache add name=undefined spec="bootstrap-datepicker@https://github.com/eternicode/bootstrap-datepicker/tree/master/" args=["bootstrap-datepicker@https://github.com/eternicode/bootstrap-datepicker/tree/master/",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'bootstrap-datepicker@https://github.com/eternicode/bootstrap-datepicker/tree/master/',
+14 verbose parsed url   path: 'bootstrap-datepicker@https://github.com/eternicode/bootstrap-datepicker/tree/master/',
+14 verbose parsed url   href: 'bootstrap-datepicker@https://github.com/eternicode/bootstrap-datepicker/tree/master/' }
+15 verbose cache add [ 'jquery-validate@https://github.com/jzaefferer/jquery-validation/tree/master',
+15 verbose cache add   null ]
+16 verbose cache add name=undefined spec="jquery-validate@https://github.com/jzaefferer/jquery-validation/tree/master" args=["jquery-validate@https://github.com/jzaefferer/jquery-validation/tree/master",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'jquery-validate@https://github.com/jzaefferer/jquery-validation/tree/master',
+17 verbose parsed url   path: 'jquery-validate@https://github.com/jzaefferer/jquery-validation/tree/master',
+17 verbose parsed url   href: 'jquery-validate@https://github.com/jzaefferer/jquery-validation/tree/master' }
+18 verbose cache add name="bootstrap-datepicker" spec="https://github.com/eternicode/bootstrap-datepicker/tree/master/" args=["bootstrap-datepicker","https://github.com/eternicode/bootstrap-datepicker/tree/master/"]
+19 verbose parsed url { protocol: 'https:',
+19 verbose parsed url   slashes: true,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: 'github.com',
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: 'github.com',
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '/eternicode/bootstrap-datepicker/tree/master/',
+19 verbose parsed url   path: '/eternicode/bootstrap-datepicker/tree/master/',
+19 verbose parsed url   href: 'https://github.com/eternicode/bootstrap-datepicker/tree/master/' }
+20 verbose already installed skipping slick-carousel@~1.4.1 /Users/mick/Sites/www-residentieontdekkingen
+21 verbose cache add name="jquery-validate" spec="https://github.com/jzaefferer/jquery-validation/tree/master" args=["jquery-validate","https://github.com/jzaefferer/jquery-validation/tree/master"]
+22 verbose parsed url { protocol: 'https:',
+22 verbose parsed url   slashes: true,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: 'github.com',
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: 'github.com',
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '/jzaefferer/jquery-validation/tree/master',
+22 verbose parsed url   path: '/jzaefferer/jquery-validation/tree/master',
+22 verbose parsed url   href: 'https://github.com/jzaefferer/jquery-validation/tree/master' }
+23 silly lockFile 98146012-bootstrap-datepicker-tree-master https://github.com/eternicode/bootstrap-datepicker/tree/master/
+24 verbose lock https://github.com/eternicode/bootstrap-datepicker/tree/master/ /Users/mick/.npm/98146012-bootstrap-datepicker-tree-master.lock
+25 silly lockFile 369b15b2-er-jquery-validation-tree-master https://github.com/jzaefferer/jquery-validation/tree/master
+26 verbose lock https://github.com/jzaefferer/jquery-validation/tree/master /Users/mick/.npm/369b15b2-er-jquery-validation-tree-master.lock
+27 verbose addRemoteTarball [ 'https://github.com/eternicode/bootstrap-datepicker/tree/master/',
+27 verbose addRemoteTarball   null ]
+28 verbose addRemoteTarball [ 'https://github.com/jzaefferer/jquery-validation/tree/master',
+28 verbose addRemoteTarball   null ]
+29 verbose already installed skipping browserify-shim@~3.8.3 /Users/mick/Sites/www-residentieontdekkingen
+30 verbose already installed skipping browserify@~9.0.3 /Users/mick/Sites/www-residentieontdekkingen
+31 verbose already installed skipping grunt@~0.4.5 /Users/mick/Sites/www-residentieontdekkingen
+32 verbose already installed skipping grunt-browserify@~3.5.0 /Users/mick/Sites/www-residentieontdekkingen
+33 verbose already installed skipping grunt-contrib-clean@~0.6.0 /Users/mick/Sites/www-residentieontdekkingen
+34 verbose already installed skipping grunt-contrib-compass@~1.0.1 /Users/mick/Sites/www-residentieontdekkingen
+35 verbose already installed skipping grunt-contrib-concat@~0.5.1 /Users/mick/Sites/www-residentieontdekkingen
+36 verbose already installed skipping grunt-contrib-uglify@~0.8.0 /Users/mick/Sites/www-residentieontdekkingen
+37 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/mick/Sites/www-residentieontdekkingen
+38 info retry fetch attempt 1 at 10:19:06
+39 verbose fetch to= /var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master
+40 http GET https://github.com/eternicode/bootstrap-datepicker/tree/master/
+41 info retry fetch attempt 1 at 10:19:07
+42 verbose fetch to= /var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master
+43 http GET https://github.com/jzaefferer/jquery-validation/tree/master
+44 http 200 https://github.com/jzaefferer/jquery-validation/tree/master
+45 http 200 https://github.com/eternicode/bootstrap-datepicker/tree/master/
+46 verbose tar unpack /var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master
+47 silly lockFile d26f7b57-ry-validation-tree-master-unpack tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master-unpack
+48 verbose lock tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master-unpack /Users/mick/.npm/d26f7b57-ry-validation-tree-master-unpack.lock
+49 silly lockFile 1e78a277-er-jquery-validation-tree-master tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master
+50 verbose lock tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master /Users/mick/.npm/1e78a277-er-jquery-validation-tree-master.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 error not a package /var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master
+53 silly lockFile d26f7b57-ry-validation-tree-master-unpack tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master-unpack
+54 silly lockFile d26f7b57-ry-validation-tree-master-unpack tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master-unpack
+55 silly lockFile 1e78a277-er-jquery-validation-tree-master tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master
+56 silly lockFile 1e78a277-er-jquery-validation-tree-master tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master
+57 silly lockFile 369b15b2-er-jquery-validation-tree-master https://github.com/jzaefferer/jquery-validation/tree/master
+58 silly lockFile 369b15b2-er-jquery-validation-tree-master https://github.com/jzaefferer/jquery-validation/tree/master
+59 verbose tar unpack /var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master
+60 silly lockFile 197c44dc-ap-datepicker-tree-master-unpack tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master-unpack
+61 verbose lock tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master-unpack /Users/mick/.npm/197c44dc-ap-datepicker-tree-master-unpack.lock
+62 silly lockFile bed3bbe6-bootstrap-datepicker-tree-master tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master
+63 verbose lock tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master /Users/mick/.npm/bed3bbe6-bootstrap-datepicker-tree-master.lock
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 error not a package /var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master
+66 silly lockFile 197c44dc-ap-datepicker-tree-master-unpack tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master-unpack
+67 silly lockFile 197c44dc-ap-datepicker-tree-master-unpack tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master-unpack
+68 silly lockFile bed3bbe6-bootstrap-datepicker-tree-master tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master
+69 silly lockFile bed3bbe6-bootstrap-datepicker-tree-master tar:///var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/eternicode/bootstrap-datepicker/tree/master
+70 silly lockFile 98146012-bootstrap-datepicker-tree-master https://github.com/eternicode/bootstrap-datepicker/tree/master/
+71 silly lockFile 98146012-bootstrap-datepicker-tree-master https://github.com/eternicode/bootstrap-datepicker/tree/master/
+72 error Error: ENOENT, open '/var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master-unpack/package.json'
+73 error If you need help, you may report this *entire* log,
+73 error including the npm and node versions, at:
+73 error     <http://github.com/npm/npm/issues>
+74 error System Darwin 14.1.0
+75 error command "node" "/usr/local/bin/npm" "install"
+76 error cwd /Users/mick/Sites/www-residentieontdekkingen
+77 error node -v v0.10.33
+78 error npm -v 1.4.28
+79 error path /var/folders/pz/2zg03x652ys7h5hvw1dnfk9h0000gn/T/npm-5840-ND-coYtO/github.com/jzaefferer/jquery-validation/tree/master-unpack/package.json
+80 error code ENOENT
+81 error errno 34
+82 verbose exit [ 34, true ]
