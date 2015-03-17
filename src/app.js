@@ -6,5 +6,5 @@ var validate = require('../vendor/jquery-validate/jquery.validate.js');
 
 $(document).ready(function () {
   $(".js-datepicker").datepicker();
-  $("form").validate();
+  $(".js-validate").validate();
 });

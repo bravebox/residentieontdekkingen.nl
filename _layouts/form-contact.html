@@ -29,7 +29,7 @@ layout: default
 
         <article class="post-content">
           {% for form in site.data.contact-form %}
-          <form action="{{page.action}}/{{page.mail_to}}" method="{{page.method}}">
+          <form action="{{page.action}}/{{page.mail_to}}" method="{{page.method}}" class="js-validate">
 
             {% for elm in form.form_fields %}
 
@@ -38,12 +38,16 @@ layout: default
               {% assign label = elm.label %}
               {% assign placeholder = elm.placeholder %}
               {% assign required = elm.required %}
+
+              {% assign fields = elm.fields %}
               {% assign group = elm.group %}
 
               {% include form/{{elm.element}}.html %}
 
             {% endfor %}
-
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_subject" value="Residentie Ontdekkingen (Contactformulier)" />
+            <input type="hidden" name="_next" value="http://www.residentieontdekkingen.nl/bedankt/" />
             <button type="submit" class="btn btn-default">Verzenden</button>
           </form>
           {% endfor %}

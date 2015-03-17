@@ -1,4 +1,4 @@
-//@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
 @import "compass/css3";
 @import "bootstrap";
 @import "vendor/bootstrap-datepicker";
@@ -404,5 +404,12 @@ table.form-table { margin-bottom: 30px; }
   .list-group-item {
     padding: 10px 0px;
     border: none;
+  }
+}
+
+.form-group {
+  label.error {
+    color: red;
+    margin: 4px 0px;
   }
 }

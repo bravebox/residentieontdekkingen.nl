@@ -11541,7 +11541,7 @@ var validate = require('../vendor/jquery-validate/jquery.validate.js');
 
 $(document).ready(function () {
   $(".js-datepicker").datepicker();
-  $("form").validate();
+  $(".js-validate").validate();
 });
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})

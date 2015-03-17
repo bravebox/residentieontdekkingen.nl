@@ -2,7 +2,7 @@
     {
         "form_id": "contact-form",
         "form_action": "//formspree.io",
-        "form_method": "post",
+        "form_method": "POST",
         "form_mail": "bravebox@gmail.com",
         "form_fields": [
             {
@@ -27,23 +27,62 @@
               "type": "text",
               "label": "Datum",
               "placeholder": "Kies datum",
-              "required": true
+              "required": false
             },
             {
               "element": "input",
               "name_id": "tijd",
               "type": "text",
-              "label": "Datum",
+              "label": "Gewenste tijd",
               "placeholder": "Vul de gewenste tijd in",
-              "required": true
+              "required": false
             },
             {
-              "element": "input",
-              "name_id": "voornaam",
-              "type": "text",
-              "label": "Voornaam",
-              "placeholder": "Vul uw naam in",
-              "required": true
+              "element": "textarea",
+              "name_id": "wensen",
+              "type": false,
+              "label": "Specifieke wensen",
+              "placeholder": "Vul uw specifieke wensen in",
+              "required": false
+            },
+            {
+              "element": "select-wandelingen",
+              "name_id": "wandelingen",
+              "type": false,
+              "label": "Kies een wandeling",
+              "placeholder": false,
+              "required": false
+            },
+            {
+              "element": "select",
+              "name_id": "wandelingen",
+              "type": false,
+              "label": "Kies ander thema (optioneel)",
+              "placeholder": false,
+              "required": false,
+              "fields": [
+                { "label": "Haagse Hofjes" },
+                { "label": "Louis Couperus" },
+                { "label": "Den Haag zand en veen" },
+                { "label": "Hagenaar /Hagenees" },
+                { "label": "China Town en de voormalige Jodenbuurt" }
+              ]
+            },
+            {
+              "element": "select-fietstochten",
+              "name_id": "wandelingen",
+              "type": false,
+              "label": "Kies een fietstocht",
+              "placeholder": false,
+              "required": false
+            },
+            {
+              "element": "select-arrangementen",
+              "name_id": "wandelingen",
+              "type": false,
+              "label": "Kies een arrangement",
+              "placeholder": false,
+              "required": false
             }
         ]
     }
