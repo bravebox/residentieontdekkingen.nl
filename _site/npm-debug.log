@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jquery-validate' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json residentieontdekkingen@1.0.0 No description
+5 warn package.json residentieontdekkingen@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git',
+7 verbose cache add   null ]
+8 verbose cache add name=undefined spec="jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git" args=["jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git',
+9 verbose parsed url   path: 'jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git',
+9 verbose parsed url   href: 'jquery-validate@git+ssh://git@github.com:jzaefferer/jquery-validation.git' }
+10 verbose cache add name="jquery-validate" spec="git+ssh://git@github.com:jzaefferer/jquery-validation.git" args=["jquery-validate","git+ssh://git@github.com:jzaefferer/jquery-validation.git"]
+11 verbose parsed url { protocol: 'git+ssh:',
+11 verbose parsed url   slashes: true,
+11 verbose parsed url   auth: 'git',
+11 verbose parsed url   host: 'github.com',
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: 'github.com',
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '/:jzaefferer/jquery-validation.git',
+11 verbose parsed url   path: '/:jzaefferer/jquery-validation.git',
+11 verbose parsed url   href: 'git+ssh://git@github.com/:jzaefferer/jquery-validation.git' }
+12 silly lockFile 2d8af237-jzaefferer-jquery-validation-git git@github.com:jzaefferer/jquery-validation.git
+13 verbose lock git@github.com:jzaefferer/jquery-validation.git /Users/mick/.npm/2d8af237-jzaefferer-jquery-validation-git.lock
+14 verbose addRemoteGit [ 'git@github.com:jzaefferer/jquery-validation.git', 'master' ]
+15 error git clone git@github.com:jzaefferer/jquery-validation.git Cloning into bare repository '/Users/mick/.npm/_git-remotes/git-github-com-jzaefferer-jquery-validation-git-2d8af237'...
+15 error git clone git@github.com:jzaefferer/jquery-validation.git Host key verification failed.
+15 error git clone git@github.com:jzaefferer/jquery-validation.git fatal: Could not read from remote repository.
+15 error git clone git@github.com:jzaefferer/jquery-validation.git
+15 error git clone git@github.com:jzaefferer/jquery-validation.git Please make sure you have the correct access rights
+15 error git clone git@github.com:jzaefferer/jquery-validation.git and the repository exists.
+16 silly lockFile 2d8af237-jzaefferer-jquery-validation-git git@github.com:jzaefferer/jquery-validation.git
+17 silly lockFile 2d8af237-jzaefferer-jquery-validation-git git@github.com:jzaefferer/jquery-validation.git
+18 error Error: Command failed: Cloning into bare repository '/Users/mick/.npm/_git-remotes/git-github-com-jzaefferer-jquery-validation-git-2d8af237'...
+18 error Host key verification failed.
+18 error fatal: Could not read from remote repository.
+18 error
+18 error Please make sure you have the correct access rights
+18 error and the repository exists.
+18 error
+18 error     at ChildProcess.exithandler (child_process.js:648:15)
+18 error     at ChildProcess.emit (events.js:98:17)
+18 error     at maybeClose (child_process.js:756:16)
+18 error     at Socket.<anonymous> (child_process.js:969:11)
+18 error     at Socket.emit (events.js:95:17)
+18 error     at Pipe.close (net.js:465:12)
+19 error If you need help, you may report this *entire* log,
+19 error including the npm and node versions, at:
+19 error     <http://github.com/npm/npm/issues>
+20 error System Darwin 14.1.0
+21 error command "node" "/usr/local/bin/npm" "install" "jquery-validate"
+22 error cwd /Users/mick/Sites/www-residentieontdekkingen
+23 error node -v v0.10.33
+24 error npm -v 1.4.28
+25 error code 128
+26 verbose exit [ 1, true ]

@@ -1,0 +1,50 @@
+[
+    {
+        "form_id": "contact-form",
+        "form_action": "//formspree.io",
+        "form_method": "post",
+        "form_mail": "bravebox@gmail.com",
+        "form_fields": [
+            {
+              "element": "input",
+              "name_id": "voornaam",
+              "type": "text",
+              "label": "Voornaam",
+              "placeholder": "Vul uw naam in",
+              "required": true
+            },
+            {
+              "element": "input",
+              "name_id": "achternaam",
+              "type": "text",
+              "label": "Achternaam",
+              "placeholder": "Vul uw achternaam in",
+              "required": true
+            },
+            {
+              "element": "datepicker",
+              "name_id": "datum",
+              "type": "text",
+              "label": "Datum",
+              "placeholder": "Kies datum",
+              "required": true
+            },
+            {
+              "element": "input",
+              "name_id": "tijd",
+              "type": "text",
+              "label": "Datum",
+              "placeholder": "Vul de gewenste tijd in",
+              "required": true
+            },
+            {
+              "element": "input",
+              "name_id": "voornaam",
+              "type": "text",
+              "label": "Voornaam",
+              "placeholder": "Vul uw naam in",
+              "required": true
+            }
+        ]
+    }
+]

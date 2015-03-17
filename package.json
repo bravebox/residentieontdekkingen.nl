@@ -1,30 +1,49 @@
 {
-  "name": "www-residentieontdekkingen-j",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bravebox/residentieontdekkingen.nl.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bravebox/residentieontdekkingen.nl/issues"
-  },
-  "homepage": "https://github.com/bravebox/residentieontdekkingen.nl",
-  "dependencies": {
-    "grunt": "^0.4.5",
-    "grunt-browserify": "^3.5.0",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-compass": "^1.0.1",
-    "grunt-contrib-concat": "^0.5.1",
-    "grunt-contrib-uglify": "^0.8.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "jquery": "^2.1.3",
-    "slick-carousel": "^1.4.1"
-  }
+    "name": "residentieontdekkingen",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bravebox/residentieontdekkingen.nl.git"
+    },
+    "author": "Mick Schouten (bravebox.nl)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bravebox/residentieontdekkingen.nl/issues"
+    },
+    "homepage": "https://github.com/bravebox/residentieontdekkingen.nl",
+    "browserify": {
+        "transform": [
+            "browserify-shim"
+        ]
+    },
+    "browserify-shim": {
+        "bootstrap": {
+            "depends": [
+                "jquery:$"
+            ]
+        }
+    },
+    "devDependencies": {
+        "browserify-shim": "~3.8.3",
+        "browserify": "~9.0.3",
+        "grunt": "~0.4.5",
+        "grunt-browserify": "~3.5.0",
+        "grunt-contrib-clean": "~0.6.0",
+        "grunt-contrib-compass": "~1.0.1",
+        "grunt-contrib-concat": "~0.5.1",
+        "grunt-contrib-uglify": "~0.8.0",
+        "grunt-contrib-watch": "~0.6.1"
+    },
+    "dependencies": {
+        "jquery": "~2.1.3",
+        "bootstrap": "~3.3.4",
+        "bootstrap-datepicker": "https://github.com/eternicode/bootstrap-datepicker.git",
+        "jquery-validate": "https://github.com/jzaefferer/jquery-validation.git",
+        "slick-carousel": "~1.4.1"
+    }
 }

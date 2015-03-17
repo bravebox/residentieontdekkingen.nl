@@ -1,0 +1,19 @@
+{% if group %}
+
+<div class="form-group">
+  {% for e in group %}
+    <label>
+      <input type="checkbox" id="{{e.id}}" name="{{name_id}}" {% if required %}required{% endif %}> {{e.label}} {% if required %}*{% endif %}
+    </label>
+  {% endfor %}
+</div>
+
+{% else %}
+
+<div class="form-group">
+  <label>
+    <input type="checkbox" id="{{name_id}}" name="{{name_id}}" {% if required %}required{% endif %}> {{label}} {% if required %}*{% endif %}
+  </label>
+</div>
+
+{% endif %}
