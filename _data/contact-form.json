@@ -3,7 +3,10 @@
         "form_id": "contact-form",
         "form_action": "//formspree.io",
         "form_method": "POST",
+        "form_subject": "Residentie Ontdekkingen Contact",
         "form_mail": "bravebox@gmail.com",
+        "form_cc": "inlichtingen@residentieontdekkingen.nl",
+        "form_page": "http://www.residentieontdekkingen.nl/bedankt/",
         "form_fields": [
             {
               "element": "input",

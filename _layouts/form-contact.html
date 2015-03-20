@@ -46,8 +46,9 @@ layout: default
 
             {% endfor %}
             <input type="text" name="_gotcha" style="display:none" />
-            <input type="hidden" name="_subject" value="Residentie Ontdekkingen (Contactformulier)" />
-            <input type="hidden" name="_next" value="http://www.residentieontdekkingen.nl/bedankt/" />
+            <input type="hidden" name="_subject" value="{{form.form_subject}}" />
+            <input type="hidden" name="_next" value="{{form.form_page}}" />
+            <input type="hidden" name="_cc" value="{{form.form_cc}}" />
             <button type="submit" class="btn btn-default">Verzenden</button>
           </form>
           {% endfor %}
