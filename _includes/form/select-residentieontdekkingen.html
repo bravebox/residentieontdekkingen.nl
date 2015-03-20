@@ -1,0 +1,30 @@
+<div class="form-group">
+  <label class="form-label" for="{{name_id}}">{{label}}</label>
+  <select name="{{name_id}}" id="{{name_id}}" class="form-control">
+    <option>Kies</option>
+    <optgroup label="Wandelingen">
+      {% assign a = (site.pages | where: "show_in_list" , "wandelingen") %}
+      {% for page in a %}
+      <option value="{{ page.title }}">{{ page.title }}</option>
+      {% endfor %}
+    </optgroup>
+    <optgroup label="Fietstochten">
+      {% assign a = (site.pages | where: "show_in_list" , "fietstochten") %}
+      {% for page in a %}
+      <option value="{{ page.title }}">{{ page.title }}</option>
+      {% endfor %}
+    </optgroup>
+    <optgroup label="Rondvaarten">
+      {% assign a = (site.pages | where: "show_in_list" , "rondvaarten") %}
+      {% for page in a %}
+      <option value="{{ page.title }}">{{ page.title }}</option>
+      {% endfor %}
+    </optgroup>
+    <optgroup label="Arrangementen">
+      {% assign a = (site.pages | where: "show_in_list" , "arrangementen") %}
+      {% for page in a %}
+      <option value="{{ page.title }}">{{ page.title }}</option>
+      {% endfor %}
+    </optgroup>
+  </select>
+</div>

@@ -22,6 +22,22 @@
               "required": true
             },
             {
+              "element": "input",
+              "name_id": "email",
+              "type": "email",
+              "label": "E-mail",
+              "placeholder": "Vul uw e-mailadres in",
+              "required": true
+            },
+            {
+              "element": "input",
+              "name_id": "telefoon",
+              "type": "text",
+              "label": "Telefoon nummer",
+              "placeholder": "Vul uw telefoonnummer in",
+              "required": true
+            },
+            {
               "element": "datepicker",
               "name_id": "datum",
               "type": "text",
@@ -38,26 +54,18 @@
               "required": false
             },
             {
-              "element": "textarea",
-              "name_id": "wensen",
+              "element": "select-residentieontdekkingen",
+              "name_id": "arrangement",
               "type": false,
-              "label": "Specifieke wensen",
-              "placeholder": "Vul uw specifieke wensen in",
-              "required": false
-            },
-            {
-              "element": "select-wandelingen",
-              "name_id": "wandelingen",
-              "type": false,
-              "label": "Kies een wandeling",
+              "label": "Kies een arrangement",
               "placeholder": false,
-              "required": false
+              "required": true
             },
             {
               "element": "select",
-              "name_id": "wandelingen",
+              "name_id": "anders",
               "type": false,
-              "label": "Kies ander thema (optioneel)",
+              "label": "Kies anders (optioneel)",
               "placeholder": false,
               "required": false,
               "fields": [
@@ -69,19 +77,11 @@
               ]
             },
             {
-              "element": "select-fietstochten",
-              "name_id": "wandelingen",
+              "element": "textarea",
+              "name_id": "wensen",
               "type": false,
-              "label": "Kies een fietstocht",
-              "placeholder": false,
-              "required": false
-            },
-            {
-              "element": "select-arrangementen",
-              "name_id": "wandelingen",
-              "type": false,
-              "label": "Kies een arrangement",
-              "placeholder": false,
+              "label": "Specifieke wensen",
+              "placeholder": "Vul uw specifieke wensen in",
               "required": false
             }
         ]

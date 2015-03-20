@@ -28,6 +28,8 @@ layout: default
         <article class="post-content">
           {{ content }}
 
+          <!-- tijdelijk voor rondvaarten geen overzicht -->
+          {% if page.title != "Rondvaarten" %}
           <div class="list-group  list-group-activities">
             {% assign a = (site.pages | where: "show_in_list" , page.list) %}
             {% for page in a %}
@@ -37,6 +39,7 @@ layout: default
               </div>
             {% endfor %}
           </div>
+          {% endif %}
 
           <a href="javascript:window.history.go(-1);">Terug</a>
         </article>

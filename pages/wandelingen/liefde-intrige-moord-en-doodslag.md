@@ -13,4 +13,4 @@ Wandeling over en rond het Binnenhof over alles wat menselijk is. Deze wandeling
 - De kosten voor deze wandeling bedragen € 9.95 p.p.
 - Voor groepen vanaf 6 personen of € 65,00 is deze wandeling alle dagen van de week te boeken.
 
-Inlichtingen en aanmelden: zie [contactformulier](/activiteiten/aanmelden/) of 070-3451298
+Inlichtingen en aanmelden: zie [contactformulier](/contact/formulier/) of 070-3451298

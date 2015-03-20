@@ -13,4 +13,4 @@ Tijdens deze wandeling maakt u op een aparte manier kennis met Den Haag. Tijdens
 - Maximale kosten per groep van 20 personen € 130,00
 - Maximale groepsgrootte per gids 20 personen.
 
-Inlichtingen en aanmelden: zie [contactformulier](/activiteiten/aanmelden/) of 070-3451298
+Inlichtingen en aanmelden: zie [contactformulier](/contact/formulier/) of 070-3451298

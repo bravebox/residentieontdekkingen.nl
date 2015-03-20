@@ -20,4 +20,4 @@ Tijdens deze wandeling laten wij u kennis maken met de geschiedenis van het Binn
 -  Maximale kosten per groep van 20 personen € 130,00 
 - De duur van de wandeling is ca. 2 uur.
 
-Inlichtingen en aanmelden: zie [contactformulier](/activiteiten/aanmelden/) of 070-3451298
+Inlichtingen en aanmelden: zie [contactformulier](/contact/formulier/) of 070-3451298

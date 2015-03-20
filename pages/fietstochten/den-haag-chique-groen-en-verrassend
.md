@@ -34,4 +34,4 @@ Minimum aantal deelnemers 5 pers. of € 197,50 (elke persoon minder  dan 5 pers
 Beide arrangementen zijn inclusief:<br/>
 Fietshuur, koffie of thee en een Oranje versnapering.
 
-Inlichtingen en aanmelden: zie [contactformulier](/activiteiten/aanmelden/) of 070-3451298
+Inlichtingen en aanmelden: zie [contactformulier](/contact/formulier/) of 070-3451298

@@ -13,4 +13,4 @@ Wij verzorgen  gegidste bustours langs de Haagse high lights zoals het werkpalei
 - Wij kunnen ook voor een bus zorgen, de kosten hiervan zijn afhankelijk van de groepsgrootte
 - Prijzen op aanvraag
 
-Inlichtingen en aanmelden: zie [contactformulier](/activiteiten/aanmelden/) of 070-3451298
+Inlichtingen en aanmelden: zie [contactformulier](/contact/formulier/) of 070-3451298

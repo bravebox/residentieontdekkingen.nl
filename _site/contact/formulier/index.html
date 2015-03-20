@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title>Contact</title>
+  <title>Contactformulier</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="http://www.residentieontdekkingen.nl/contact-form/">
+  <link rel="canonical" href="http://www.residentieontdekkingen.nl/contact/formulier/">
   <link rel="alternate" type="application/atom+xml" title="Residentie Ontdekkingen" href="http://www.residentieontdekkingen.nl/feed.xml" />
 </head>
 
@@ -30,7 +30,7 @@
         <h2>Mogelijkheden</h2>
         <p>Combinaties van wandelen, varen en fietsen, het bezoeken van musea en bezienswaardigheden, het volgen van actief-creatieve workshops.</p>
         <a class="button" href="/mogelijkheden"><span class="red">&rsaquo;</span> Bekijk de mogelijkheden</a><br/>
-        <a class="button" href="/activiteiten/aanmelden/"><span class="red">&rsaquo;</span> Activiteitenformulier</a>
+        <a class="button" href="/contact/formulier/"><span class="red">&rsaquo;</span> Activiteitenformulier</a>
       </li>
       <li class="post-content">
         <h2>Contact</h2>
@@ -106,12 +106,12 @@
       <div id="content_inner">
 
         <header class="post-header">
-          <h1 class="post-title">Contact</h1>
+          <h1 class="post-title">Contactformulier</h1>
         </header>
 
         <article class="post-content">
           
-          <form action="/" method="" class="js-validate">
+          <form action="//formspree.io/bravebox@gmail.com" method="POST" class="js-validate">
 
             
 
@@ -144,6 +144,40 @@
               <div class="form-group">
   <label class="form-label" for="achternaam">Achternaam *</label>
   <input type="text" class="form-control" id="achternaam" name="achternaam" placeholder="Vul uw achternaam in" required>
+</div>
+
+
+            
+
+              
+              
+              
+              
+              
+
+              
+              
+
+              <div class="form-group">
+  <label class="form-label" for="email">E-mail *</label>
+  <input type="email" class="form-control" id="email" name="email" placeholder="Vul uw e-mailadres in" required>
+</div>
+
+
+            
+
+              
+              
+              
+              
+              
+
+              
+              
+
+              <div class="form-group">
+  <label class="form-label" for="telefoon">Telefoon nummer *</label>
+  <input type="text" class="form-control" id="telefoon" name="telefoon" placeholder="Vul uw telefoonnummer in" required>
 </div>
 
 
@@ -195,46 +229,49 @@
               
 
               <div class="form-group">
-  <label class="form-label" for="wensen">Specifieke wensen</label>
-  <textarea class="form-control" name="wensen" id="wensen" ></textarea>
-</div>
-
-
-            
-
-              
-              
-              
-              
-              
-
-              
-              
-
-              <div class="form-group">
-  <label class="form-label" for="wandelingen">Kies een wandeling</label>
-  <select name="wandelingen" id="wandelingen" class="form-control">
+  <label class="form-label" for="arrangement">Kies een arrangement</label>
+  <select name="arrangement" id="arrangement" class="form-control">
     <option>Kies</option>
-
-    
-    
-    <option value="China Town en de verdwenen Jodenbuurt">China Town en de verdwenen Jodenbuurt</option>
-    
-    <option value="Haagse bouwgeschiedenis en architectuur">Haagse bouwgeschiedenis en architectuur</option>
-    
-    <option value="Het Binnenhof">Het Binnenhof</option>
-    
-    <option value="Het Hofgebied, Voorhout en omgeving, Buurschap Centrum 2005">Het Hofgebied, Voorhout en omgeving, Buurschap Centrum 2005</option>
-    
-    <option value="Horen, zien en beleven">Horen, zien en beleven</option>
-    
-    <option value="“Liefde, intrige, moord en doodslag”">“Liefde, intrige, moord en doodslag”</option>
-    
-    <option value="Oranjewandeling 200 jaar koninkrijk">Oranjewandeling 200 jaar koninkrijk</option>
-    
-    <option value="Verrassingswandeling">Verrassingswandeling</option>
-    
-
+    <optgroup label="Wandelingen">
+      
+      
+      <option value="China Town en de verdwenen Jodenbuurt">China Town en de verdwenen Jodenbuurt</option>
+      
+      <option value="Haagse bouwgeschiedenis en architectuur">Haagse bouwgeschiedenis en architectuur</option>
+      
+      <option value="Het Binnenhof">Het Binnenhof</option>
+      
+      <option value="Het Hofgebied, Voorhout en omgeving, Buurschap Centrum 2005">Het Hofgebied, Voorhout en omgeving, Buurschap Centrum 2005</option>
+      
+      <option value="Horen, zien en beleven">Horen, zien en beleven</option>
+      
+      <option value="“Liefde, intrige, moord en doodslag”">“Liefde, intrige, moord en doodslag”</option>
+      
+      <option value="Oranjewandeling 200 jaar koninkrijk">Oranjewandeling 200 jaar koninkrijk</option>
+      
+      <option value="Verrassingswandeling">Verrassingswandeling</option>
+      
+    </optgroup>
+    <optgroup label="Fietstochten">
+      
+      
+      <option value="Den Haag; Chique, groen en verrassend">Den Haag; Chique, groen en verrassend</option>
+      
+      <option value="Een fietstocht over grenzen">Een fietstocht over grenzen</option>
+      
+    </optgroup>
+    <optgroup label="Rondvaarten">
+      
+      
+      <option value="Rondvaarten">Rondvaarten</option>
+      
+    </optgroup>
+    <optgroup label="Arrangementen">
+      
+      
+      <option value="Beleef Chinatown en de verdwenen Jodenbuurt">Beleef Chinatown en de verdwenen Jodenbuurt</option>
+      
+    </optgroup>
   </select>
 </div>
 
@@ -251,8 +288,8 @@
               
 
               <div class="form-group">
-  <label class="form-label" for="wandelingen">Kies ander thema (optioneel)</label>
-  <select name="wandelingen" id="wandelingen" class="form-control">
+  <label class="form-label" for="anders">Kies anders (optioneel)</label>
+  <select name="anders" id="anders" class="form-control">
     <option>Kies</option>
 
     
@@ -283,43 +320,8 @@
               
 
               <div class="form-group">
-  <label class="form-label" for="wandelingen">Kies een fietstocht</label>
-  <select name="wandelingen" id="wandelingen" class="form-control">
-    <option>Kies</option>
-
-    
-    
-    <option value="Den Haag; Chique, groen en verrassend">Den Haag; Chique, groen en verrassend</option>
-    
-    <option value="Een fietstocht over grenzen">Een fietstocht over grenzen</option>
-    
-
-  </select>
-</div>
-
-
-            
-
-              
-              
-              
-              
-              
-
-              
-              
-
-              <div class="form-group">
-  <label class="form-label" for="wandelingen">Kies een arrangement</label>
-  <select name="wandelingen" id="wandelingen" class="form-control">
-    <option>Kies</option>
-
-    
-    
-    <option value="Beleef Chinatown en de verdwenen Jodenbuurt">Beleef Chinatown en de verdwenen Jodenbuurt</option>
-    
-
-  </select>
+  <label class="form-label" for="wensen">Specifieke wensen</label>
+  <textarea class="form-control" name="wensen" id="wensen" ></textarea>
 </div>
 
 

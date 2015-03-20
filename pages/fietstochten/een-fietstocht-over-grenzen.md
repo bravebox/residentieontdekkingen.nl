@@ -24,4 +24,4 @@ Ook uw persoonlijke wensen kunnen wij in het programma opnemen.
 - Kosten: op aanvraag. minimaal € 130,00 voor 5 personen. Maximaal € 295,00 voor 15 personen
 - Deze prijzen zijn op basis van 2 uur incl. fietshuur
 
-Inlichtingen en aanmelden: zie [contactformulier](/activiteiten/aanmelden/) of 070-3451298
+Inlichtingen en aanmelden: zie [contactformulier](/contact/formulier/) of 070-3451298

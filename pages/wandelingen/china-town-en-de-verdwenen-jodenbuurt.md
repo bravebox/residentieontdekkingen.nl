@@ -25,4 +25,4 @@ Deze wandeling kan uitgebreid worden met een Chinees hapje, lunch of diner in ee
 - Wandeling met Chinese lunch € 12.50 p.p.
 - Wandeling met Chinees diner € 19.50 p.p.
 
-Inlichtingen en aanmelden: zie [contactformulier](/activiteiten/aanmelden/) of 070-3451298
+Inlichtingen en aanmelden: zie [contactformulier](/contact/formulier/) of 070-3451298

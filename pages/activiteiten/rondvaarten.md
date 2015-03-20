@@ -15,4 +15,4 @@ Omat er heel veel mogelijk is, korte en lange vaarten weinig en veel gasten kunn
 
 Geef ons uw wensen op en u ontvangt een prijsopgave.
 
-Inlichtingen en aanmelden: zie [contactformulier](/activiteiten/aanmelden/) of 070-3451298
+Inlichtingen en aanmelden: zie [contactformulier](/contact/formulier/) of 070-3451298

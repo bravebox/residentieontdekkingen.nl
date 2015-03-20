@@ -29,7 +29,7 @@ layout: default
 
         <article class="post-content">
           {% for form in site.data.contact-form %}
-          <form action="{{page.action}}/{{page.mail_to}}" method="{{page.method}}" class="js-validate">
+          <form action="{{form.form_action}}/{{form.form_mail}}" method="{{form.form_method}}" class="js-validate">
 
             {% for elm in form.form_fields %}
 
